@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: "DiscoveryService"
+
+server:
+  port: 8084
