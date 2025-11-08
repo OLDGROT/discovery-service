@@ -26,7 +26,7 @@ public class RegistryController {
         return ResponseEntity.status(200).body(registryService.getServices());
     }
 
-    @GetMapping("/get-serviice/{name}")
+    @GetMapping("/get-service/{name}")
     public ResponseEntity<List<ServiceInstance>> getService(@PathVariable String name) {
         Map< String,List<ServiceInstance>> instances = registryService.getServices();
         if(instances.containsKey(name) && !instances.get(name).isEmpty()) {
