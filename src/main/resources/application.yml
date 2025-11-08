@@ -3,4 +3,4 @@ spring:
     name: "DiscoveryService"
 
 server:
-  port: 8084
+  port: 8080

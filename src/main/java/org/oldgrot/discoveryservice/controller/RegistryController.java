@@ -11,7 +11,7 @@ import java.util.Map;
 
 @AllArgsConstructor
 @RestController()
-@RequestMapping("/discovery-service")
+@RequestMapping()
 public class RegistryController {
     private final RegistryService registryService;
 
